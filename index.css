@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    list-style-type: none;
+    padding-left: 32px;
+    color: gray;
+}
+.nav-bar{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    font-size: 10px;
+}
+.curriculum{
+    display: flex; 
+    font-size: 13px;
+}
+.logo{
+    width: 15%;
+    height: 30px;
+}
+.get-started{
+    background-image: url("/image/laptop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30rem;
+    color: #fff;
+}
+.reimargin{
+    margin-left: 50px;
+}
+.imagin{
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagin2{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+padding-top: 30px;
+}
+button{
+    background-color: rgb(128, 207, 128);
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border: none;
+    margin-top: 30px;
+    padding: 0px 26px;
+}
+button:hover{
+    border: none;
+    background-color: #fff;
+    color: green;
+    text-decoration: none;
+}
+.student{
+    margin-top: 50px;
+    height: 12rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.work {
+    display: grid;
+    place-items: center;
+    font-size: 24px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.logos1{
+    width: 15%;
+    margin-left: 12px;
+    padding-left: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.logos-top{
+    margin: auto;
+}
+.people1{
+    width: 300px; 
+}
+.people-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 100px;
+    background-color:whitesmoke;
+    margin-top: 100px;
+}
+.people{
+    display: flex 
+}
+.margin-left{
+    margin-left: 30px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+}
+.lap{font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.marg{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tuition{
+    margin-top: 75px; 
+    font-size: 24px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.financial{
+    text-align: center;
+}
+.can{
+    margin-left: 300px;
+    margin-top: 20px; 
+    font-size: 16px; 
+}
+.fees{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px; 
+}
+.b-top{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.amount{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.month{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.beginner{
+text-align: center;
+width: 30%;
+height: 27rem;
+padding-top: 30px;
+}
+.beginner-caption{
+    padding-top: 20px;
+    line-height: 40px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.li{
+    font-weight: bold;
+    padding-right: 12px;
+}
+.full-stack{
+    text-align: center;
+    width: 30%;
+    height: 27rem;
+    background-color:#47b475;  
+    color: #fff;
+    padding: 50px 0px;
+}
+.apprentiship{
+    text-align: center;
+    width: 30%;
+    height: 27rem;
+    background-color: whitesmoke;
+    padding: 50px 0px;
+}
+.three1{
+    margin-top: 100px;
+    width: 50px;  
+    padding-left: 20px;  
+}
+.testimoials{
+text-align: center;
+background:#292929 ;
+margin-top: 100px;
+}
+.testy{
+    margin-top: 50px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(221, 218, 218);
+    
+}
+.hack{
+    padding: 10px 10px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.guaranty{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.course{
+    margin-top: 50px;
+    margin:50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.their-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+    padding: 20px;
+    font-size: 13px;
+}
+.paced{
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ment{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.path{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.admision{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.accept{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admision-button{
+margin-left: 40%;
+}
+.house {
+    display: flex;
+    margin-top: 100px;
+}
+.building{
+width: 50%;
+}
+.touch{
+    text-align: justify;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    padding:0 40px 40px;
+}
+.ques{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.mc{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.mac{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ep{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.limages{
+width: 50px;
+margin-top: 100px;
+padding-left: 50%;
+}
+.handcrafted{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(243, 241, 241);
+}
+.ico{    
+    display: flex;
+    height: 100px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 50px;    
+}
+.icons1 {
+    height: 40px;
+    width: 34px;
+    padding: 0 20px 0 20px;  
+}
+.contact{
+    background-color: #292929;
+}
